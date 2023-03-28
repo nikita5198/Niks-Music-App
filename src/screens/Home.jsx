@@ -15,8 +15,8 @@ function Home() {
     <div>
       <BrowserRouter>
       <div className="main-body">
-        {/* <SpotifyButton/> */}
-        <Sidebar/>
+        <SpotifyButton/>
+        {/* <Sidebar/> */}
       {/* <Routes>
           <Route path="/" element={<Library />} />
           <Route path="/feed" element={<Feed />} />

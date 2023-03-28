@@ -1,6 +1,7 @@
-/* .screen-container{
+.screen-container{
     width: calc(100% - 100px);
     height: 100%;
-    background-color:red ;
+    background-color: #1e2a3e;
+    /* color: white; */
     border-radius: 30px;
-} */
+}

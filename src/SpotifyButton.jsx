@@ -1,4 +1,5 @@
 import React from "react";
+import "./spotifyButton.css"
 const SpotifyButton = () => {
   const handleClick = () => {
     const CLIENT_ID = "a912cec2a12d40c4b332b1e6c3c49f1e";
@@ -11,7 +12,7 @@ const SpotifyButton = () => {
   };
 
   return (
-   <div style={{margin:"30% 40%"}}>
+    <div className="login-page">
        <img
             src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
             alt="logo-spotify"
@@ -19,7 +20,7 @@ const SpotifyButton = () => {
 
             style={{ width: "30%"}}
           />
-     <button style={{padding:"0.5rem",width:"150px",height:"60px"}} onClick={handleClick}>Log in </button>
+     <button className="login-btn" onClick={handleClick}>LOG IN </button>
    </div>
   );
 };
